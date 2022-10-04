@@ -5,15 +5,15 @@ public class Main {
 
         System.out.println("Enter numbers:");
         Scanner keyboard = new Scanner(System.in);
-        int myint = keyboard.nextInt();
+        int number = keyboard.nextInt();
 
         int sum = 0;
         int ct = 0;
 
-        while(myint != 0){
-            sum+=myint;
+        while(number != 0){
+            sum+=number;
             ct++;
-            myint = keyboard.nextInt();
+            number = keyboard.nextInt();
         }
 
         System.out.println(sum/ct);
